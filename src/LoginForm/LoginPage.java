@@ -76,7 +76,7 @@ public class LoginPage extends JFrame {
 				String name = txtName.getText();
 				int age = Integer.parseInt(txtAge.getText());
 				if(age>=18) {
-					lblinfo.setText(name + "You are eligible");
+					lblinfo.setText(name + "You are eligible for this");
 				}
 				else
 				{
